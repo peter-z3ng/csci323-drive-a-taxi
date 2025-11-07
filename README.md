@@ -1,2 +1,74 @@
-# csci323-drive-a-taxi
-A reinforcement learning project based on Taxi-v3 program that trains an AI agent to learn optimal routes through exploration and rewards for picking up and dropping off passengers using Q-learning.
+# Taxi-v3 Reinforcement Learning
+A reinforcement learning project in OpenAI's Gym Taxi-v3 environment that trains an AI agent to pick up and drop off passengers using Q-learning while learning the optimal routes through exploration and rewards.
+
+Built using Python3, Gymnasium, Numpy and Matplotlib.
+
+# Environment Setup
+Environment: OpenAI Gymnasium Taxi-v3
+
+[See documentation here](https://gymnasium.farama.org/environments/toy_text/taxi)
+
+Algorithm: Q-Learning (RL Model Free Learning)
+
+Objective: Optimal route selection to transport passengers with the least number of actions
+
+## Clone the Repository
+```bash
+git clone https://github.com/peter-z3ng/csci323-taxi-v3.git
+cd csci323-taxi-v3
+```
+
+## Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+gymnasium:  for the Taxi-v3 environment
+
+numpy:  for Q-table and numerical operations
+
+matplotlib:  for plotting training results
+
+tqdm:  for progress bar during training
+
+os:  for console control
+
+time:  for timing display
+
+## Running the Agent
+Once dependencies are installed, start training the taxi agent by running:
+
+For macOS/ Linux
+```bash
+python3 taxi_v3.py
+```
+
+For Windows
+```bash
+python taxi-v3.py
+```
+Source code [here](./taxi_v3.py)
+
+## Dataset (Model free RL)
+-  5x5 grid world
+-  4 fixed pick up/drop off points
+-  6 possible actions (north, east, south, west, pick up, drop off)
+-  500 possible states
+-  Q-table size = 500 x 6
+
+## Reproducing Key Results
+1. Train the model for 10000 episodes
+2. Track rewards per episode, steps, average q-values, epsilon values
+3. Plot learning curve
+4. Observe the performance and optimal routes selection
+
+## Authors
+**Group name:** FT37
+
+**Members:**
+- Brandon ()
+- Charlotte ()
+- Hein Thura Min ()
+- Nan Phyu Sin Maung (9097478)
+- Paing Thit Xan (9097612)
+- Saung Hninn Phyu ()

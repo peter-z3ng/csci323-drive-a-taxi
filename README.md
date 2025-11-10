@@ -1,7 +1,7 @@
 # Taxi-v3 Reinforcement Learning
 A reinforcement learning project in OpenAI's Gym Taxi-v3 environment that trains an AI agent to pick up and drop off passengers using Q-learning while learning the optimal routes through exploration and rewards.
 
-Built using Python3, Gymnasium, Numpy and Matplotlib.
+Built using Python3, Gymnasium, Numpy, Matplotlib and tqdm.
 
 # Environment Setup
 Environment: OpenAI Gymnasium Taxi-v3
@@ -31,8 +31,6 @@ matplotlib:  for plotting training results
 
 tqdm:  for progress bar during training
 
-os:  for console control
-
 time:  for timing display
 
 ## Running the Agent
@@ -49,15 +47,15 @@ python taxi-v3.py
 ```
 Source code [here](./taxi_v3.py)
 
-## Dataset (Model free RL)
+## Dataset (Model-free RL)
 -  5x5 grid world
 -  4 fixed pick up/drop off points
--  6 possible actions (north, east, south, west, pick up, drop off)
+-  6 possible actions (north, east, south, west, pick-up, drop-off)
 -  500 possible states
--  Q-table size = 500 x 6
+-  Q-table size = 500 x 6 = 3000
 
 ## Reproducing Key Results
-1. Train the model for 10000 episodes
+1. Train the model for 30000 episodes
 2. Track rewards per episode, steps, average q-values, epsilon values
 3. Plot learning curve
 4. Observe the performance and optimal routes selection
@@ -66,9 +64,9 @@ Source code [here](./taxi_v3.py)
 **Group name:** FT37
 
 **Members:**
-- Brandon ()
-- Charlotte ()
-- Hein Thura Min ()
-- Nan Phyu Sin Maung (9097478)
-- Paing Thit Xan (9097612)
-- Saung Hninn Phyu ()
+- Aw Qixuan Charlotte
+- Hein Thura Min
+- Jun Peng Brandon Toh
+- Nan Phyu Sin Maung
+- Paing Thit Xan
+- Saung Hnin Phyu

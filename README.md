@@ -45,7 +45,7 @@ For Windows
 ```bash
 python taxi-v3.py
 ```
-Source code [here](./taxi_v3.py)
+Source code [here](./ft37.py)
 
 ## Dataset (Model-free RL)
 -  5x5 grid world

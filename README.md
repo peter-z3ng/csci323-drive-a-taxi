@@ -38,18 +38,18 @@ Once dependencies are installed, start training the taxi agent by running:
 
 For macOS/ Linux
 ```bash
-python3 taxi_v3.py
+python3 ft37.py
 ```
 
 For Windows
 ```bash
-python taxi-v3.py
+python ft37.py
 ```
 Source code [here](./ft37.py)
 
 ## Dataset (Model-free RL)
 -  5x5 grid world
--  4 fixed pick up/drop off points
+-  4 fixed pick-up/drop-off points
 -  6 possible actions (north, east, south, west, pick-up, drop-off)
 -  500 possible states
 -  Q-table size = 500 x 6 = 3000
@@ -69,4 +69,4 @@ Source code [here](./ft37.py)
 - Jun Peng Brandon Toh
 - Nan Phyu Sin Maung
 - Paing Thit Xan
-- Saung Hnin Phyu
+- Saung Hninn Phyu

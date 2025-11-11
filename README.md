@@ -15,7 +15,7 @@ Objective: Optimal route selection to transport passengers with the least number
 ## Clone the Repository
 ```bash
 git clone https://github.com/peter-z3ng/csci323-taxi-v3.git
-cd csci323-taxi-v3
+cd csci323-drive-a-taxi
 ```
 
 ## Install Dependencies
